@@ -6,13 +6,54 @@ body {
 
 }
 
+.animation{
+	width: 100px;
+	height: 100px;
+	background-color: white;
+	animation-name: test;
+	position: relative;
+	animation-duration: 4s;
+	animation-delay;
+	animation-iteration-count:infinite;
+	animation-direction:alternate;
+	animation-timing-function: ease-in-out
+}
+
+.animation:hover {
+	background-color:darkred;
+}
+
+
+@keyframes test{
+	0%{background-color:white; 
+	left:0px; 
+	top:0px;
+	scale:1;}
+	25%{left:200px; 
+	top:0px;
+	scale:1;}
+	50%{background-color:darkred;
+	left:200px; 
+	top:200px;
+	scale:2;}
+	75%{left:0px; 
+	top:200px;
+	scale:1;}
+	100%{background-color:white;
+	left:0px; 
+	top:0px;
+	scale:1;}
+}
+
 /*background-image:url("images/Watermark-6-2.jpg")*/
 
 /*En hel blok, består af selektors, og en dekleration -> det er foregår mellem to curly brakets . Deklaration består af en property (hvad vil vi ændre) og en value (hvad vil vi ændre det til). */
 
 /*body, er et html tag - og her bruger vi den til en type selector (da den kun bruger det man skriver). der ud over er der en * universal selektor, som vælger det hele i dokumentet*/
 
-*{font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"}
+*{font-family: azo-sans-web,sans-serif;
+font-weight: 300;
+font-style: normal;}
 
 h1 {
 	/*margin-left:600px;
