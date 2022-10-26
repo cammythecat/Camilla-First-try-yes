@@ -4,25 +4,65 @@
 <style>
 	table, th, td {
 		border: 1px solid darkred;color:darkred;
+		border-collapse: collapse
 	}
-	p, h1, ol, ul {color:floralwhite;
+	p, h1, h2, ol, ul, label {color:#FFFFFF;
 	}
+	
+	.red
+		{color:darkred;
+	}
+	
+	#rock {
+		color:#FFFFFF
+	}
+	
+	div {
+		background-color:black;
+	}
+	
 </style>
 
 <html>
+	<!-- class kan bruges på flere, mens id kun kan bruges på én--> 
+	<!-- ligesom div, er der også section, nav, header, footer. Funktions messigt er der ikke forskel,  bare til nemmere sektion-->
+	
+	
 <head>
 <meta charset="utf-8">
 <title>Flower Castle</title>
 </head>
 
 <body style="background:#201818;">
-	<h1>Castle</h1>
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <strong>This is important. </strong>Consectetur <b>this is no longer important </b>fugit autem natus eaque ipsam consequatur obcaecati quis sed labore. Totam quibusdam error, ipsam repellat nihil cum deleniti sequi itaque, esse sint quia. Ullam eius corporis enim quidem eos, rerum molestiae quibusdam rem inventore, deserunt dolorem ipsam reprehenderit eveniet similique. <i>"Qui, esse doloribus autem magnam quam non tempore pariatur similique molestias nulla quae soluta at, provident porro, ipsam."</i> Error neque sunt, tempore modi deleniti obcaecati atque et nulla omnis, commodi ratione! Recusandae necessitatibus aspernatur iure dicta, <em>this as well </em>fugiat expedita labore corrupti aut error eveniet modi accusamus ex maxime voluptatibus cupiditate, eaque accusantium.</p>
+	<h1 class="red">Castle</h1>
+	<hr>
+<h2 class="red">mini castle</h2>
 	
-	<img src="Watermark-6-2.jpg" width="458" height="305" alt=""/>
+	
+	<p id="rock">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <strong>This is important. </strong>Consectetur <b>this is no longer important </b>fugit autem natus eaque ipsam consequatur obcaecati quis sed labore. Totam quibusdam error, ipsam repellat nihil cum deleniti sequi itaque, esse sint quia. Ullam eius corporis enim quidem eos, rerum molestiae quibusdam rem inventore, deserunt dolorem ipsam reprehenderit eveniet similique. <i>"Qui, esse doloribus autem magnam quam non tempore pariatur similique molestias nulla quae soluta at, provident porro, ipsam."</i> Error neque sunt, tempore modi deleniti obcaecati atque et nulla omnis, commodi ratione! Recusandae necessitatibus aspernatur iure dicta, <em>this as well </em>fugiat expedita labore corrupti aut error eveniet modi accusamus ex maxime voluptatibus cupiditate, eaque accusantium.</p>
+	
+	<img src="images/Watermark-6-2.jpg" width="450" height="300" alt="Gothic red and green flower on a black bagground"/><img src="images/Watermark-6-2.jpg" width="450" height="300" alt="Gothic red and green flower on a black bagground"/><img src="images/Watermark-6-2.jpg" width="450" height="300" alt="Gothic red and green flower on a black bagground"/>
+	
+	<br>
+<a href="http://www.google.dk/" target="_blank">Click me?</a>
+	
+	<br>
+<a href="mailto:mothercamellia@gmail.com">Mail me?</a>
+	<br>
+	<a href="tel:12345678">Call me?</a>
 	
 	<p>H<sub>2</sub>O</p>
 	<p>10<sup>2</sup></p>
+	
+	
+	
+	<br> <br> <br>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/i9yqAmS5DiY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	
+	<br> <br> <br>
+	
+	
+	<div>
 	
 	<ol>
 		<li>I</li>
@@ -38,8 +78,10 @@
 		<li>Sure</li>
 		<li>?</li>
 	</ul>
+		
+	</div>
 	
-	<table>
+	<table class="red">
 		<tr>
 		<th>Flot</th>
 		<td colspan="2">Meget</td>
@@ -50,9 +92,16 @@
 		<td>Godt</td>
 		</tr>
 	</table>
+		
 	
 	
-	<table>
+	<br>
+	
+	
+	
+	<br>
+	
+<table>
 		<tr>
 			<th>Man</th><th>Tirs</th><th>Ons</th><th>Tors</th><th>Fre</th><th>Lør</th><th>Søn</th>
 		</tr>
@@ -76,7 +125,27 @@
 		</tr>
 	</table>
 	
+	<br> <br>
 	
+	<a href="#rock">link</a>
+	
+	<br> <br> <br> 
+
+<form>
+	
+	<label> First name</label> <input type="text" value="Write here"
+<br><br><br>
+	<input type="radio"> <label>mmd</label>
+	<input type="radio"> <label>dat</label>
+<br><br><br>
+	<input type="checkbox"> <label>Yes</label>
+	<input type="checkbox"> <label>No</label>
+	<br><br><br>
+	<input type="submit" value="send">
+
+</form>
+	
+<br> <br>
  style="border: 1px solid red; color:darkred;"	
 	
 </body>
