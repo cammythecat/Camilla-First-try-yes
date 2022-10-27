@@ -6,6 +6,7 @@ body {
 
 }
 
+/*
 .animation{
 	width: 100px;
 	height: 100px;
@@ -18,6 +19,7 @@ body {
 	animation-direction:alternate;
 	animation-timing-function: ease-in-out
 }
+*/
 
 .animation:hover {
 	background-color:darkred;
@@ -78,6 +80,37 @@ a {
 	Background-color: Darkred;
 }
 
+.a {
+	background-color:purple;
+	width:500px;
+	height:50px;
+}
+
+.b {
+	background-color:darkblue;
+	width:50%;
+	height:50px;
+}
+
+.c{
+	background-color:darkred;
+	max-width:500px;
+	height:50px;
+}
+
+.d{
+	background-color:darkgreen;
+	min-width:500px;
+	height:50px;
+}
+
+@media screen and (max-width:500px) {
+	.a, .b, .c, .d{
+		background-color:deeppink;
+		width:100px;
+		display:inline-block;
+	}
+}
 
 
 
