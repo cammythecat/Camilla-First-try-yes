@@ -122,8 +122,10 @@ ol li {
 a {
 	background-color:#EB1010;
 	color:#FFFFFF; 
-	padding:3px;
-	background-image:linear-gradient(#110F17, rgba(0,0,0,0))
+	padding:5px;
+	background-image:radial-gradient(rgba(0,0,0,0),#110F17 80%);
+	text-decoration:none;
+	
 	
 	
 }
