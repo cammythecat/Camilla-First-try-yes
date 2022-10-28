@@ -67,6 +67,7 @@ font-style: normal;}
 	grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 	display: grid;
 	margin-left: 60px;
+	margin-bottom:10px;
 	
 }
 
@@ -85,7 +86,11 @@ font-style: normal;}
 	width:230px;
 	height:60px;
 	margin-right:120px;
+
 }
+
+
+
 @media screen and (max-width:1280px){
 	
 	
@@ -117,8 +122,25 @@ ol li {
 a {
 	background-color:#EB1010;
 	color:#110F17; 
+	border-style:solid;
+	border-size:1px;
+	border-color:#FFFFFF
+	
 }
 
+#aboutmetekst {
+	width:500px;
+	height:600px;
+	border-style:solid;
+	border-size: 1px;
+	border-color:#FFFFFF;
+	padding:8px;
+}
+
+#grad{
+	height:30px;
+	background-image:linear-gradient(#FFFFFF, rgba(0,0,0,0))
+}
 
 /*
 .a {
