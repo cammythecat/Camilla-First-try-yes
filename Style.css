@@ -59,14 +59,14 @@ font-style: normal;}
 
 
 .gridelement{
-	border:1px solid #FFFFFF;
+	
 	
 }
 
 .grid{
 	grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 	display: grid;
-	margin-left: 100px;
+	margin-left: 80px;
 	
 }
 
@@ -83,7 +83,7 @@ font-style: normal;}
 .tekst {
 	width:230px;
 	height:60px;
-	margin-right:100px;
+	margin-right:120px;
 }
 @media screen and (max-width="400px"){
 	.gridelement{
