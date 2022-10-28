@@ -121,12 +121,17 @@ ol li {
 
 a {
 	background-color:#EB1010;
-	color:#110F17; 
-	border-style:solid;
-	border-size:1px;
-	border-color:#FFFFFF
+	color:#FFFFFF; 
+	padding:3px;
+	background-image:linear-gradient(#110F17, rgba(0,0,0,0))
+	
 	
 }
+
+/*border-style:solid;
+	border-size:1px;
+	border-color:#FFFFFF;
+*/
 
 #aboutmetekst {
 	width:500px;
