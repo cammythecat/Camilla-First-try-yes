@@ -20,7 +20,7 @@ body {
 	animation-timing-function: ease-in-out
 }
 */
-
+/*
 .animation:hover {
 	background-color:darkred;
 }
@@ -46,7 +46,7 @@ body {
 	top:0px;
 	scale:1;}
 }
-
+*/
 /*background-image:url("images/Watermark-6-2.jpg")*/
 
 /*En hel blok, består af selektors, og en dekleration -> det er foregår mellem to curly brakets . Deklaration består af en property (hvad vil vi ændre) og en value (hvad vil vi ændre det til). */
@@ -57,12 +57,20 @@ body {
 font-weight: 300;
 font-style: normal;}
 
+
+.gridelement{
+	border:2px solid #FFFFFF
+}
+
+.grid{
+	grid-template-columns:1fr 10% 30% 1fr 1fr;
+	display: grid;
+	
+}
+
+
 h1 {
-	/*margin-left:600px;
-	top:0px;
-	right:300px;*/
-	position:sticky;
-	justify-content:center; 
+	
 	
 }
 
@@ -72,14 +80,19 @@ p, ol, h1, h2, ul {
 	color: #FFFFFF;
 }
 
+
+
 ol li {
 	color: darkred;
 }
 
 a {
-	Background-color: Darkred;
+	background-color:#EB1010;
+	color:#110F17; 
 }
 
+
+/*
 .a {
 	background-color:purple;
 	width:500px;
@@ -104,7 +117,10 @@ a {
 	height:50px;
 }
 
-@media screen and (max-width:500px) {
+
+*/
+
+/*@media screen and (max-width:500px) {
 	.a, .b, .c, .d{
 		background-color:deeppink;
 		width:100px;
@@ -112,6 +128,6 @@ a {
 	}
 }
 
-
+*/
 
 
