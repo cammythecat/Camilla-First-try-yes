@@ -130,7 +130,7 @@ p, h1, h4, ul {
 a {
 	background-color:#EB1010;
 	color:#FFFFFF; 
-	padding:5px;
+	padding:1px;
 	background-image:radial-gradient(rgba(0,0,0,0),#110F17 80%);
 	text-decoration:none;
 	margin:5px;
@@ -170,42 +170,11 @@ a {
 	background-image:linear-gradient(rgba(0,0,0,0), #FFFFFF)
 }
 
-/*
-.a {
-	background-color:purple;
-	width:500px;
-	height:50px;
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
 }
-
-.b {
-	background-color:darkblue;
-	width:50%;
-	height:50px;
-}
-
-.c{
-	background-color:darkred;
-	max-width:500px;
-	height:50px;
-}
-
-.d{
-	background-color:darkgreen;
-	min-width:500px;
-	height:50px;
-}
-
-
-*/
-
-/*@media screen and (max-width:500px) {
-	.a, .b, .c, .d{
-		background-color:deeppink;
-		width:100px;
-		display:inline-block;
-	}
-}
-
-*/
 
 
