@@ -3,7 +3,7 @@
 
 
 html, body {
-  margin: 0px !important;
+  margin: 0px;
 }
 
 body {
@@ -103,27 +103,17 @@ font-style: normal;}
 	margin-top:5px;
 }
 
-
-
-@media screen and (max-width:1280px){
-	
-	
+.red{
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+	width:55%
 }
 
-@media screen and (min-width:340px){
-	
-	
-}
-
-
-h1 {
-	
-	
-}
 
 /*Fixed/sticky/relative/absolute */
 
-p, h1, h4, ul {
+p, h4 {
 	color: #FFFFFF;
 }
 
@@ -134,12 +124,10 @@ a {
 	padding:1px;
 	background-image:radial-gradient(rgba(0,0,0,0),#110F17 80%);
 	text-decoration:none;
-	margin:5px;
-	
-  
-		
-	
+	margin:5px;	
 }
+
+
 
 #aboutmetekst {
 	width:500px;
@@ -177,4 +165,12 @@ footer {
   height: 50px;
 }
 
+@media screen and (max-width:1280px){
+	
+	
+}
 
+@media screen and (min-width:340px){
+	
+	
+}
