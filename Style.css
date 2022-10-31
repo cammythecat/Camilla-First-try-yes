@@ -70,24 +70,25 @@ font-style: normal;}
 	margin-left: 60px;
 	margin-right:10px;
 	margin-bottom:5px;
+	margin-top:5px;
 	
 	
 }
 
 .firstflower{
-	width:60px;
-	height:60px;
+	width:50px;
+	height:50px;
 }
 
 .flower {
-	width:60px;
-	height:60px;
+	width:50px;
+	height:50px;
 	margin-left:70px;
 }
 
 .tekst {
 	width:230px;
-	height:60px;
+	height:50px;
 	margin-right:120px;
 
 }
@@ -98,7 +99,7 @@ font-style: normal;}
 	display: grid;
 	margin-left: 40px;
 	margin-right:10px;
-	margin-bottom:10px;
+	margin-bottom:5px;
 	margin-top:5px;
 }
 
@@ -140,11 +141,6 @@ a {
 	
 }
 
-/*border-style:solid;
-	border-size:1px;
-	border-color:#FFFFFF;
-*/
-
 #aboutmetekst {
 	width:500px;
 	height:600px;
@@ -157,6 +153,10 @@ a {
 
 #rock{
 	margin:10px;
+	display:grid;
+	grid-template-rows: 1fr, 1fr, 1fr;
+	justify-content:center;
+	align-content: center;
 }
 
 
