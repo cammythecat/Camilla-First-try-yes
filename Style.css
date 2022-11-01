@@ -83,7 +83,9 @@ footer {
 font-weight: 300;
 font-style: normal;}
 
-
+.header{
+	
+}
 
 .grid{
 	grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -131,19 +133,12 @@ font-style: normal;}
 	width:60%
 }
 
-.container {
-  position: relative;
-  text-align: center;
-}
 
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-	background-color:#110F17;
-	color:#FFFFFF;
-}
+
+
+
+
+
 
 
 /*Fixed/sticky/relative/absolute */
