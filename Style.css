@@ -10,6 +10,7 @@ html, body {
 body {
 	background-color:#110F17;
 
+
 }
 
 header {
@@ -18,6 +19,7 @@ header {
 	background-color: #110F17;
 	height:60px;
 	width:100%;	
+	z-index: 1;
 	
 }
 
@@ -26,8 +28,11 @@ footer {
   position:fixed;
   bottom: 0;
   width: 100%;
-  height: 100px;
+  height: 50px;
+	
 	background-color: #110F17;
+	z-index:1;
+	
 	
 }
 
@@ -83,14 +88,14 @@ footer {
 font-weight: 300;
 font-style: normal;}
 
-.header{
-	
+li {
+	list-style:none;
 }
 
 .grid{
 	grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 	display: grid;
-	margin-left: 60px;
+	margin-left: 10px;
 	margin-right:10px;
 	margin-bottom:5px;
 	margin-top:5px;
@@ -101,12 +106,20 @@ font-style: normal;}
 .firstflower{
 	width:50px;
 	height:50px;
+	
 }
 
 .flower {
 	width:50px;
 	height:50px;
 	margin-left:70px;
+}
+
+.flowertwo {
+	width:25px;
+	height:25px;
+	margin-bottom:5px;
+	
 }
 
 .tekst {
@@ -120,57 +133,54 @@ font-style: normal;}
 .gridbottom{
 	grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 	display: grid;
-	margin-left: 40px;
+	margin-left: 10px;
 	margin-right:10px;
 	margin-bottom:5px;
 	margin-top:5px;
 }
 
-.red{
+.red, .pconly{
 	display: block;
-  	margin-left: auto;
+	margin-left: auto;
   	margin-right: auto;
 	width:60%
 }
 
 
-.container .centered{
+.bodygrid{
 	display:grid;
-	grid-template-columns: auto auto auto auto;
-	grid-template-rows: auto auto auto auto;
-	grid-column-start: 1;
-	grid-column-end: 4;
-	grid-row-start: 1;
-	grid-row-end:1;
-}
-
-.abutton{
-	grid-column-start: 2;
-	grid-column-end:2;
-	grid-row-start: 1;
-	grid-row-end:1;
-}
-
-.bbutton{
-	grid-column-start: 3;
-	grid-column-end: 3;
-	grid-row-start: 1;
-	grid-row-end:1;
-}
+	grid-template-columns: 1fr 1fr 1fr 1fr;
 	
 	
+}
+
+.container, .centered{
+	
+}
+
 .container {
 	position: relative;
-  text-align: center;
-  color: white;
+  	text-align: center;
+ 	color: white;
+	display:inline-grid;
+	border-width: 3px;
+  border-style: solid;
+  border-image: 
+    linear-gradient(
+      to bottom, 
+      red, 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+	
+	
 }
 
 .centered {
-  position: absolute;
+ 	position: absolute;
 	text-align:center;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
 	background-color:#110F17;
 	padding:5px;
 }
@@ -186,7 +196,7 @@ hr{
 	width:500px;
 	height:1px;
 }
-a {
+h4 a {
 	background-color:#EB1010;
 	color:#FFFFFF; 
 	padding:1px;
@@ -229,12 +239,23 @@ a {
 
 
 
-@media screen and (max-width:1280px){
-	
+@media screen and (max-width:800px){
+	.bodygrid{
+		grid-template-columns: 1fr;
+		width:100%
+	}
+	.pconly{
+		display:none;
+	}
 	
 }
 
-@media screen and (min-width:340px){
-	
+@media screen and (min-width:800px){
+	ul {
+		display:none;
+	}
+	.pconly{
+		
+	}
 	
 }
