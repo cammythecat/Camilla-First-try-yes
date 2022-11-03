@@ -156,6 +156,8 @@ li {
 .bodygrid{
 	display:grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
+	margin-top:20px;
+	
 	
 	
 }
@@ -218,14 +220,25 @@ a{
 	border-style:solid;
 	border-size: 1px;
 	border-color:#FFFFFF;
-	padding:20px;
-	margin:20px;
+	padding-right:20px;
+	padding-left:20px;
+	margin-right:20px;
+	
 }
 
 .aboutmetekst {
 	
 	text-align:justify;
 }
+
+
+
+#selfportrait img{
+	border-style:solid;
+	border-size:1px;
+	border-color:#FFFFFF; 
+}
+
 
 #rock{
 	margin:10px;
