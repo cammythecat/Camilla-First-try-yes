@@ -288,6 +288,10 @@ a{
 	.pconly{
 		display:none;
 	}
+	.pictures:hover{
+		scale:1.0;
+		border-style:none;
+	}
 	
 }
 
@@ -295,5 +299,7 @@ a{
 	ul {
 		display:none;
 	}
-		
+	.mobile{
+		display:none;
+	}	
 }
