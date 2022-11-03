@@ -122,8 +122,22 @@ li {
 	margin-bottom:5px;
 	margin-left:45%
 	
+}
+
+.pictures{
+	width:350px;
+	height:250px;
+	margin-left:40px;
+	margin-top:40px;
 	
-	
+}
+
+.pictures:hover{
+	scale: 1.5;
+	border-style:solid;
+	border-size:1px;
+	border-color:#FFFFFF;
+		
 	
 }
 
@@ -156,7 +170,11 @@ li {
 .bodygrid{
 	display:grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
-	margin-top:20px;
+	margin-bottom: 200px;
+	margin-left:50px;
+	margin-right:50px;
+
+	
 	
 	
 	
@@ -169,7 +187,7 @@ li {
   	text-align: center;
  	color: white;
 	display:inline-grid;
-	margin:5px;
+	margin:10px;
 		
 }
 
