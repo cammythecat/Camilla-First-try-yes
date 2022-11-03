@@ -240,7 +240,9 @@ a{
 	border-color:#FFFFFF;
 	padding-right:20px;
 	padding-left:20px;
-	margin-right:20px;
+	margin-left:20px;
+	
+	
 	
 }
 
@@ -255,6 +257,7 @@ a{
 	border-style:solid;
 	border-size:1px;
 	border-color:#FFFFFF; 
+	border-radius:200px 200px 200px 200px;
 }
 
 
@@ -283,7 +286,11 @@ a{
 @media screen and (max-width:800px){
 	.bodygrid{
 		grid-template-columns: 1fr;
-		width:100%
+		width:100%;
+		margin:0px;
+	}
+	#selfportrait{
+		margin:10px;
 	}
 	.pconly{
 		display:none;
