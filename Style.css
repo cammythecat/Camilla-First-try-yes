@@ -36,61 +36,9 @@ footer {
 	
 }
 
-
-/*
-.animation{
-	width: 100px;
-	height: 100px;
-	background-color: white;
-	animation-name: test;
-	position: relative;
-	animation-duration: 4s;
-	animation-delay;
-	animation-iteration-count:infinite;
-	animation-direction:alternate;
-	animation-timing-function: ease-in-out
-}
-*/
-/*
-.animation:hover {
-	background-color:darkred;
-}
-
-
-@keyframes test{
-	0%{background-color:white; 
-	left:0px; 
-	top:0px;
-	scale:1;}
-	25%{left:200px; 
-	top:0px;
-	scale:1;}
-	50%{background-color:darkred;
-	left:200px; 
-	top:200px;
-	scale:2;}
-	75%{left:0px; 
-	top:200px;
-	scale:1;}
-	100%{background-color:white;
-	left:0px; 
-	top:0px;
-	scale:1;}
-}
-*/
-/*background-image:url("images/Watermark-6-2.jpg")*/
-
-/*En hel blok, består af selektors, og en dekleration -> det er foregår mellem to curly brakets . Deklaration består af en property (hvad vil vi ændre) og en value (hvad vil vi ændre det til). */
-
-/*body, er et html tag - og her bruger vi den til en type selector (da den kun bruger det man skriver). der ud over er der en * universal selektor, som vælger det hele i dokumentet*/
-
 *{font-family: azo-sans-web,sans-serif;
 font-weight: 300;
 font-style: normal;}
-
-li {
-	list-style:none;
-}
 
 .grid{
 	grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -100,9 +48,26 @@ li {
 	margin-bottom:5px;
 	margin-top:5px;
 	
+}
+
+.bodygrid{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	margin-bottom: 200px;
+	margin-left:70px;
+	margin-right:85px;
 	
 }
 
+.gridbottom{
+	grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	display: grid;
+	margin-left: 10px;
+	margin-right:10px;
+	margin-bottom:5px;
+	margin-top:5px;
+	
+}
 .firstflower{
 	width:50px;
 	height:50px;
@@ -127,7 +92,8 @@ li {
 .pictures{
 	width:350px;
 	height:250px;
-	margin-left:40px;
+	margin-left:20px;
+	margin-right:20px;
 	margin-top:40px;
 	
 }
@@ -145,18 +111,6 @@ li {
 	width:230px;
 	height:50px;
 	
-
-}
-
-
-.gridbottom{
-	grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-	display: grid;
-	margin-left: 10px;
-	margin-right:10px;
-	margin-bottom:5px;
-	margin-top:5px;
-	
 }
 
 .red, .pconly{
@@ -166,22 +120,6 @@ li {
 	width:60%
 }
 
-
-.bodygrid{
-	display:grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
-	margin-bottom: 200px;
-	margin-left:50px;
-	margin-right:50px;
-
-	
-	
-	
-	
-}
-
-
-
 .container {
 	position: relative;
   	text-align: center;
@@ -189,6 +127,11 @@ li {
 	display:inline-grid;
 	margin:10px;
 		
+}
+
+.container:hover{
+	scale: 1.1;
+	
 }
 
 .pconly{
@@ -206,8 +149,22 @@ li {
 	text-decoration: none;
 }
 
+.textbox{
+	width:500px;
+	height:600px;
+	border-style:solid;
+	border-size: 1px;
+	border-color:#FFFFFF;
+	padding-right:20px;
+	padding-left:20px;
+	margin-left:20px;
+	
+}
 
-/*Fixed/sticky/relative/absolute */
+.aboutmetekst {
+	text-align:justify;
+}
+
 
 p, h4 {
 	color: #FFFFFF;
@@ -217,6 +174,12 @@ hr{
 	width:500px;
 	height:1px;
 }
+
+li {
+	list-style:none;
+}
+
+
 h4 a {
 	background-color:#EB1010;
 	color:#FFFFFF; 
@@ -230,28 +193,6 @@ a{
 	text-decoration: none;
 	color:#FFFFFF;
 }
-
-
-.textbox{
-	width:500px;
-	height:600px;
-	border-style:solid;
-	border-size: 1px;
-	border-color:#FFFFFF;
-	padding-right:20px;
-	padding-left:20px;
-	margin-left:20px;
-	
-	
-	
-}
-
-.aboutmetekst {
-	
-	text-align:justify;
-}
-
-
 
 #selfportrait img{
 	border-style:solid;
@@ -309,4 +250,6 @@ a{
 	.mobile{
 		display:none;
 	}	
+	
+
 }
