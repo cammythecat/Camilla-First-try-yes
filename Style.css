@@ -145,7 +145,8 @@ font-style: normal;}
   	left: 50%;
   	transform: translate(-50%, -50%);
 	background-color:#110F17;
-	padding:5px;
+	padding:30px;
+	border-style:solid;
 	text-decoration: none;
 }
 
